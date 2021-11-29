@@ -1,0 +1,263 @@
+body {
+  font-family: "Open Sans", serif;
+  padding-top: 54px;
+  color: #868e96;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Saira Extra Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", serif;
+  font-size: 1.35rem;
+}
+.list-social-icons a {
+  color: #495057;
+}
+.list-social-icons a:hover {
+  color: #bd5d38;
+}
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+.list-icons {
+  font-size: 3rem;
+}
+.list-icons .list-inline-item i:hover {
+  color: #bd5d38;
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+.bg-primary {
+  background-color: #bd5d38 !important;
+}
+.text-primary {
+  color: #bd5d38 !important;
+}
+a {
+  color: #bd5d38;
+}
+a:active,
+a:focus,
+a:hover {
+  color: #824027;
+}
+.img:hover {
+  color: #824027;
+}
+
+.hf{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+.container{
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container .heading{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .heading::before{
+  content: '';
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.userd{
+  width: 100%;
+}
+.container form .userd{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+form .userd .inputbox{
+  width: calc(100%/2-20px);
+  margin-bottom: 15px;  
+}
+
+.userd .inputbox .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.userd .inputbox input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.userd .inputbox input:focus,
+.userd .inputbox input:valid{
+    border-color: #9b59b6;
+}
+
+.userd .inputbox .tell{
+  width: 219%;
+}
+
+form .button{
+  margin-top: 25px;
+  height: 45px;
+  width: 100%;
+}
+
+form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  font-size:18px;
+  font-weight: 500;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+form .but{
+  height: 50px;
+  width: 100%;
+}
+
+form .button input:hover{
+  background: linear-gradient(-135deg,#71b7e6,#9b59b6);
+
+}
+
+
+@media(max-width:584px){
+  .container{
+    max-width: 100%;
+  }
+
+  form .userd .inputbox{
+    width: 100%;
+    margin-bottom: 15px;  
+  }
+
+  .container form .userd{
+    min-height: 300px;
+    overflow-y: scroll;
+
+  }
+
+  .userd::-webkit-scrollbar{
+    width: 0;
+  }
+}
+

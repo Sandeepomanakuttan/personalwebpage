@@ -1,0 +1,11 @@
+
+.linka{
+    text-decoration: tomato;
+    color: red;
+}
+
+.linka:hover{
+    
+    text-decoration: none;
+   
+}
